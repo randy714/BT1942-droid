@@ -1,4 +1,4 @@
-name: Build B1942 Engine APK
+name: Build B1942-droid APK
 
 on:
   workflow_dispatch:
@@ -32,5 +32,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: B1942-Engine-Debug
+          name: B1942-droid-Debug
           path: app/build/outputs/apk/debug/app-debug.apk
