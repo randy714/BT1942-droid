@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">B1942 Engine</string>
+    <string name="launch_game">START BATTLEFIELD 1942</string>
+    <string name="tab_dashboard">DASHBOARD</string>
+    <string name="tab_settings">SETTINGS</string>
+    <string name="tab_controls">LAYOUT</string>
+    <string name="engine_standalone">ENGINE: STANDALONE ACTIVE</string>
+</resources>
