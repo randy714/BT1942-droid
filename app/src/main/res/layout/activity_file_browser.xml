@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/olive"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btnUp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="⬆ UP"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvPath"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="/storage/"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:singleLine="true"
+            android:layout_marginHorizontal="8dp" />
+
+        <Button
+            android:id="@+id/btnPick"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="PILIH"
+            android:backgroundTint="@color/gold"
+            android:textColor="@color/dark"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
